@@ -1,6 +1,6 @@
 function updateWeatherIcon() {
   let tempHTML = `
-            <img class="h-40 w-40" src="../image/sun.png" />`;
+            <img class="h-40 w-40" src="./image/sun.png" />`;
 
   document.querySelector("#weather-temp").innerHTML = tempHTML;
 }
